@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneEleven Assessment Tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>OneEleven Assessment</h1>
+        <p>Use this form to test your API endpoint via the validation service.</p>
+        <form id="test-form">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+            <label for="url">API endpoint URL</label>
+            <input type="url" id="url" name="url" required placeholder="https://your.domain/endpoint">
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="output" class="output"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
