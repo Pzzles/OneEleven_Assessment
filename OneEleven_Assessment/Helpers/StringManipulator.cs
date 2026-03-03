@@ -12,7 +12,7 @@
                 charArray[i] = input[i];
             }
             
-            Console.WriteLine("Manual conversion complete");
+            Console.WriteLine("String conversion complete");
             return charArray;
         }
         
@@ -35,6 +35,8 @@
                         Swap(unsortedInput, j);
                 }
             }
+
+            Console.WriteLine("String sort complete");
             return unsortedInput;
         }
         public static char[] MethodSortCharArray(char[] unsortedInput)
