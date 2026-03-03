@@ -11,6 +11,8 @@
             {
                 charArray[i] = input[i];
             }
+            
+            Console.WriteLine("Manual conversion complete");
             return charArray;
         }
         
